@@ -9,7 +9,7 @@
 
 #### Divirta-se: https://arymanreis.github.io/quiz_programador_react/ 
 
-<img align="center" src="/assets/CapturaDeTela.png" alt="imagem do projeto"/>
+<img align="center" src="/countdown/assets/CapturaDeTela.png" alt="imagem do projeto"/>
 
 #### Tecnologias Usadas no projeto
 
