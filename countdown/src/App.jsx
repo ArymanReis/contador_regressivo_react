@@ -1,5 +1,8 @@
-import Title from './components/Title';
-import Counter from './components/Counter';
+import { Outlet } from 'react-router-dom';
+
+import { useContext } from 'react';
+
+import { CountdownContext } from './context/CountdownContext';
 
 import Bebe from "./assets/bebe.jpg";
 
@@ -8,19 +11,22 @@ import './App.css';
 
 function App() {
 
+  const {event} = useContext(CountdownContext);
+
+  let eventImage = null;
+
+  if (event) eventImage = event.image;
+
   return (
-    <div className="App" style={{ backgroundImage: `url(${Bebe})` }}>
+    <div className="App" style={eventImage 
+      ? { backgroundImage: `url(${eventImage})`}
+      : { backgroundImage: `url(${Bebe})`}
+      }>
       <div className="container">
-        <Title title="Contagem regressiva nascimento do bebê." />
-        <div className="countdown-container">
-          <Counter title="Dias" number={2} />
-          <Counter title="Horas" number={2} />
-          <Counter title="Minutos" number={2} />
-          <Counter title="Segundos" number={2} />
-        </div>
+        <Outlet />
       </div>
     </div>
   )
 }
 
-export default App
+export default App;

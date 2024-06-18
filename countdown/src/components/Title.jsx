@@ -2,10 +2,10 @@ import "./Title.css";
 
 import React from 'react'
 
-const Title = ({title}) => {
+const Title = ({title, eventColor}) => {
     return (
     <div>
-        <h1 className='title'>{title}</h1>
+        <h1 className='title' style={{color: eventColor}}>{title}</h1>
     </div>
     )
 }
