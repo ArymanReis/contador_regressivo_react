@@ -7,8 +7,6 @@
 #### Imagem do projeto
 ##### Nome: Contador regressivo comemoração.
 
-#### Divirta-se: https://arymanreis.github.io/quiz_programador_react/ 
-
 <img align="center" src="countdown/src/assets/CapturaDeTela.png" alt="imagem do projeto"/>
 
 #### Tecnologias Usadas no projeto
