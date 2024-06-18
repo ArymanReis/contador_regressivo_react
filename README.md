@@ -1,6 +1,6 @@
 ### Aloha! Sou Aryman Reis Dev.Front-End 🤙
 
-#### Projeto feito por mim praticando dentro do curso de Front-End
+#### Projeto feito por Aryman Reis praticando dentro do curso de Front-End
 - Prof: Matheus Battiste
 - Intituição: Udemy
 
@@ -9,7 +9,7 @@
 
 #### Divirta-se: https://arymanreis.github.io/quiz_programador_react/ 
 
-<img align="center" src="/assets/CapturaDeTela.png" alt="imagem do projeto"/>
+<img align="center" src="countdown/src/assets/CapturaDeTela.png" alt="imagem do projeto"/>
 
 #### Tecnologias Usadas no projeto
 
